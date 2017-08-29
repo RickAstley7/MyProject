@@ -1,0 +1,31 @@
+/*
+ * 파일이름: ArithOp.java
+ * 작 성 자: RickAstley
+ * 작 성 일: 2017년 8월 29일
+ * 목    적: Study Java Language
+ */
+
+package Chapter4;
+
+public class BitShiftOp {
+
+	public static void main(String[] args) {
+		byte num;
+		
+		num = 2;  // 00000010
+		System.out.println((byte)(num << 1) + " ");         // 00000100
+		System.out.println((byte)(num << 2) + " ");         // 00001000
+		System.out.println((byte)(num << 3) + " " + '\n');  // 00010000
+		
+		num = 8;  // 00001000
+		System.out.println((byte)(num >> 1) + " ");         // 00000100
+		System.out.println((byte)(num >> 2) + " ");         // 00000010
+		System.out.println((byte)(num >> 3) + " " + '\n');  // 00000001
+
+		num = -8;  // 11111000
+		System.out.println((byte)(num >> 1) + " ");         // 11111100
+		System.out.println((byte)(num >> 2) + " ");         // 11111110 
+		System.out.println((byte)(num >> 3) + " " + '\n');  // 11111111
+	}
+
+}
