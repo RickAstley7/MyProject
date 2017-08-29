@@ -8,8 +8,7 @@
 public class BlockComment {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// 다음은 단순한 정수의 출력
+		/* 다음은 단순한 정수의 출력 */
 		System.out.println(7);
 		
 		/* 다음은 덧셈 결과의 출력 */
