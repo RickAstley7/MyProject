@@ -1,5 +1,5 @@
-/*
- * 파일이름: ArithOp.java
+﻿/*
+ * 파일이름: BitOperator.java
  * 작 성 자: RickAstley
  * 작 성 일: 2017년 8월 29일
  * 목    적: Study Java Language
