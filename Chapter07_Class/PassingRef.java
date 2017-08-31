@@ -5,7 +5,7 @@ package Chapter7;
  * 작 성 일: 2017년 8월 31일
  * 목    적: Study Java Language
  */
-class BankAccount {
+class BankAccount3 {
 	int balance = 0;    // 예금 잔액
 	
 	public int deposit(int amount) {
@@ -24,12 +24,12 @@ class BankAccount {
 class PassingRef {
 
 	public static void main(String[] args) {
-		BankAccount ref = new BankAccount();
+		BankAccount3 ref = new BankAccount3();
 		ref.deposit(3000);
 		ref.withdraw(300);
 		check(ref);   // '참조 값'의 전달
 	}
-	public static void check(BankAccount acc) {
+	public static void check(BankAccount3 acc) {
 		acc.checkMyBalance();
 	}
 

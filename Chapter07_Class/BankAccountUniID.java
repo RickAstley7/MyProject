@@ -5,7 +5,7 @@ package Chapter7;
  * 작 성 일: 2017년 8월 31일
  * 목    적: Study Java Language
  */
-class BankAccount2{
+class BankAccount4{
 	String accNumber;    // 계좌 번호
 	String ssNumber;     // 주민 번호
 	int balance;         // 예금 잔액
@@ -34,10 +34,10 @@ class BankAccount2{
 class BankAccountUniID {
 
 	public static void main(String[] args) {
-		BankAccount2 yoon = new BankAccount2();   // 계좌 생성
+		BankAccount4 yoon = new BankAccount4();   // 계좌 생성
 		yoon.initAccount("12-34-89", "990990-9090990", 10000);  // 초기화
 		
-		BankAccount2 park = new BankAccount2();   // 계좌 생성
+		BankAccount4 park = new BankAccount4();   // 계좌 생성
 		park.initAccount("33-55-09", "770088-5959007", 10000);  // 초기화
 		
 		yoon.deposit(5000);
